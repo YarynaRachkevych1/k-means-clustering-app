@@ -83,4 +83,4 @@ def clustering(path, k):
     variation = 0
     for cl_p in cluster_points:
         variation += calc_variation(cl_p, calc_mean(cl_p))
-    print(variation)
+    print("Variation", variation)
