@@ -45,7 +45,7 @@ class MainMenu:
         try:
             self.clusters_num = int(self.cluster_input.get())
             print(f"Number of clusters set to: {self.clusters_num}")
-            self.input_window.destroy()  # Close the input window after saving
+            self.input_window.destroy() 
         except ValueError:
             print("Please enter a valid integer.")
 
